@@ -1,0 +1,51 @@
+.chat-room {
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-room .header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.chat-room .header h1 {
+  flex: 1;
+}
+
+.chat-room .header img {
+  width: 20px;
+  height: 20px;
+}
+
+.chat-room .main-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.chat-room .messages {
+  flex: 2;
+}
+
+.chat-room .task-board {
+  flex: 1;
+}
+
+.task-board {
+  float: right;
+  width: 300px;
+}
+
+.task-board .columns .column {
+  border: 1px solid black;
+}
+
+.task-board .columns .column {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+
+
